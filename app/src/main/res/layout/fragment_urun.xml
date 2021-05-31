@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    >
+
+    <EditText
+        android:id="@+id/foodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ürün Adı"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/carbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Karbonhidrat Miktarı (gr)"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="290dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Protein Miktarı (gr)"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Yağ Miktarı (gr)"
+        android:textSize="24dp" />
+
+
+
+    <EditText
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Kalori Miktarı" />
+
+
+    <Button
+        android:id="@+id/btnaddFood"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="1500px"
+        android:text="Besin Ekle" />
+
+    <Button
+        android:id="@+id/btnupdateFood"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:layout_width="360px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="360px"
+        android:layout_marginTop="1500px"
+        android:text="Besin Güncelle" />
+
+    <Button
+        android:id="@+id/btndeleteFood"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="800px"
+        android:layout_marginTop="1500px"
+        android:text="Besin Sİl" />
+
+    <Button
+        android:id="@+id/btnviewFood"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="1650px"
+        android:text="Besinleri Görüntüle" />
+
+
+
+</RelativeLayout>

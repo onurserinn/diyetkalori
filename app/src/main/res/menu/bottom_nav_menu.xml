@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_diet"
+        android:icon="@drawable/ic_baseline_local_dining_24"
+        android:title="@string/title_diet" />
+
+
+    <item
+        android:id="@+id/nav_foodstatus"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        android:title="@string/title_foodstatus"/>
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_profile" />
+
+</menu>

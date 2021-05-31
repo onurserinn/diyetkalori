@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">diyetkalori</string>
+    <string name="title_activity_diyet">MainActivity</string>
+    <string name="title_foodstatus">Besin</string>
+    <string name="title_diet">Diyet</string>
+    <string name="title_profile">Profil</string>
+</resources>
